@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  --c-bg: #1a0f2e;
+  --c-bg2: #0d1b0d;
+  --c-card: #1c3520;
+  --c-card2: #2a1650;
+  --c-accent: #d4af37;
+  --c-text: #f5f0e1;
+  --c-dim: #a8b89a;
+  --c-border: #3d5c3d;
+  --c-danger: #c0392b;
+  --c-warn: #d4a012;
+  --c-gold: #d4af37;
+  --c-silver: #b0b0b0;
+  --c-bronze: #cd8032;
+  --c-blue: #6b8bc4;
+  --c-green: #2d6a2d;
+  --c-purple: #5a30a0;
+  --c-dark-green: #0f3f10;
+  --c-light-green: #5a9c5a;
+  --c-cream: #f5f0e1;
+  --c-cream2: #e8dcc8;
+  --c-cream3: #d4c9a8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Georgia", "Times New Roman", serif;
+  background: linear-gradient(180deg, var(--c-bg2) 0%, var(--c-bg) 100%);
+  color: var(--c-cream);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--c-dark-green);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--c-gold);
+  border-radius: 3px;
+}
+
+::selection {
+  background: var(--c-gold);
+  color: #1a0a0a;
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.8) sepia(1) saturate(3) hue-rotate(10deg);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
