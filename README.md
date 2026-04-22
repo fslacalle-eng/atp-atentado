@@ -148,3 +148,5 @@ atp-atentado/
 - **Seguridad:** Firestore está en modo abierto (cualquier usuario autenticado en Firebase puede leer/escribir). Para una liga amateur es suficiente; si quieres autenticación real, avísame.
 - **Coste:** Firebase Spark (gratis) y Vercel Hobby (gratis) cubren sobradamente este tipo de uso. No te van a cobrar nada.
 - **Dominio personalizado:** en Vercel → Settings → Domains puedes conectar un dominio propio.
+
+Trigger redeploy with PWA files
